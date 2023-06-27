@@ -1,18 +1,48 @@
 {
   "manifest_version": 3,
-  "name": "Extension Name",
+  "name": "My Extension",
   "version": "1.0.0",
-  "description": "Extension description",
-  "permissions": [
-    "storage",
-    "tabs"
-  ],
+  "description": "My extension description",
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "icon-16.png",
-      "48": "icon-48.png",
-      "128": "icon-128.png"
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
     }
-  }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "action_groups": [
+    {
+      "title": "Sample Group",
+      "actions": [
+        {
+          "type": "popup",
+          "action_type": "default",
+          "popup_id": "popup"
+        }
+      ]
+    }
+  ],
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        {
+          "js": ["popup.js"],
+          "css": ["popup.css"]
+        }
+      ],
+      "extension_ids": ["abcdefghijklmnopqrstuvwxyz"]
+    }
+  ]
 }
