@@ -3,6 +3,10 @@
   "displayName": "Chrome Extension Starter Kit",
   "description": "Chrome Extension Starter Kit is a comprehensive toolkit designed to streamline the process of developing Chrome extensions. Whether you're a seasoned developer or just starting out, this extension provides a solid foundation to kickstart your Chrome extension projects using the manifest v3 structure.",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Phantasm0009/Chrome-Extension-Starter-Kit.git"
+  },
   "engines": {
     "vscode": "^1.79.0"
   },
