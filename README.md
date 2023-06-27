@@ -29,7 +29,7 @@ The Chrome Extension Starter Kit is a comprehensive toolkit designed to streamli
 
 ## Contributing
 
-Contributions to the Chrome Extension Starter Kit are welcome! If you encounter any issues or have ideas for improvements, please open an issue on the [GitHub repository](https://github.com/Phantasm0009/Chrome-Extension-Starter-Kit). Feel free to submit pull requests with bug fixes, enhancements, or new features.
+Contributions to the Chrome Extension Starter Kit are welcome! If you encounter any issues or have ideas for improvements, please open an issue on the [GitHub repository](https://github.com/your-repo/chrome-extension-starter-kit). Feel free to submit pull requests with bug fixes, enhancements, or new features.
 
 ## License
 
